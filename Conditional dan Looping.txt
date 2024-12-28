@@ -1,0 +1,26 @@
+Conditional if else
+
+const totalBelanja=120000;
+
+if(totalBelanja >100000){
+  console.log("Selamat anda dapat hadiah payung")
+} else if(totalBelanja > 50000) {
+  console.log("Selamat dapat gelas")
+} else {
+  console.log("terima kasih")
+}
+
+Looping (pengulangan)
+
+Looping pakai "for"
+for (let index = 0; index < 10; index++){
+  console.log("Hallo")
+}
+
+
+Looping pakai "for Each"
+let hobbies = ["coding", "mancing"]
+
+hobbies.forEach((hobby) => {
+  console.log(hobby)
+})

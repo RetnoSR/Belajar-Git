@@ -1,0 +1,31 @@
+let nama = "Retno Setya Rini";
+let umur = 25;
+
+console.log("Hello World")
+console.log(nama)
+console.log("Hallo nama saya "+nama)
+console.log(`Hallo nama saya ${nama}`)
+console.log(`Umur saya saat ini ${umur}`)
+umur=26;
+console.log(`Umur saya saat ini ${umur}`)
+
+let nama = "Retno Setya Rini"; //tipe data "string"
+let umur = 25; //tipe data "number"
+let statusLulus = true //tipe data "boolean"
+let hobby = ["coding","piano"] //tipe data "Array"
+
+console.log(hobby)
+console.log(hobby[0]) 
+//untuk memunculkan variabel tertentu dalam array, tambahkan indeks di kurung siku. Indeks di Array mulai dari 0
+
+let orang={
+  nama: "Retno", //nama, umur, hobby disebut property, antar property dipisahkan oleh koma. Cara penulisannya pakai ":" sebelum input data.
+  umur: 25,
+  hobby : ["coding","belajar bahasa"]
+} //tipe data "object"
+
+console.log(orang.hobby)
+console.log(orang['hobby']) 
+//kalau nama objectnya ada "-", ga bisa pakai titik, misalnya "nama-personil".
+
+console.log(`Halo nama saya ${orang.nama}, hobby saya ${orang.hobby[0]}`) //manggil kombinasi variabel
